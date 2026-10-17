@@ -1,3 +1,13 @@
+.. rubric:: About this fork
+
+This is a development fork of `nipy/nibabel <https://github.com/nipy/nibabel>`__. NiBabel connects neuroimaging file formats to Python: read headers and image data from NIfTI, GIFTI, CIFTI and other formats, then work with the data as NumPy arrays. It is useful when an analysis needs access to both voxel values and the metadata that describe their spatial meaning.
+
+The fork's `upstream PR #1568 <https://github.com/nipy/nibabel/pull/1568>`__ proposes validation of undersized NIfTI extension lengths before payload reads. The proposal was open on 17 October 2026 and is tracked on its linked feature branch.
+
+Use the `official documentation <https://nipy.org/nibabel/>`__ for installation, supported formats, and API examples. `Compare the default branch with upstream <https://github.com/jdotc1/nibabel/compare/nipy:master...jdotc1:master>`__ before choosing a source revision. The upstream README, including license and citation guidance, is preserved below.
+
+.. rubric:: Upstream README
+
 .. -*- rest -*-
 .. vim:syntax=rst
 
